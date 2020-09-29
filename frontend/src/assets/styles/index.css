@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600&display=swap');
+
+html{
+    overflow-y: scroll;
+}
+body{
+    background-color: #23252F;
+    padding-top: 73px;
+    font-family: 'Quicksand', sans-serif;
+}
+.search-container input {
+    border: none;
+    outline: none;
+    color: #f3c457;
+    font-size:12px;
+    font-weight: 600;
+    width: 100%;
+    background-color: transparent;
+}
+.search-container input::placeholder{
+    color: #cccccc;
+}
+.search-container input:focus{
+    box-shadow:none;
+}
+.search-container .ivu-icon{
+    color: #b3b3b3;
+}
+.checkbox-item .ivu-checkbox span{
+    border-color: #39325D;
+}
+.checkbox-item .ivu-checkbox-checked span{
+    background-color: #5DD5A5;
+}
+.ivu-checkbox-inner::after{
+    border-color: #23252F !important;
+}
+.ivu-checkbox-wrapper-checked span{
+    color: #5DD5A5 !important;
+}
+
+.ivu-select-placeholder{
+    font-size: 12px !important;
+    color: #9896a1 !important;
+    font-weight: 600;
+}
+.ivu-form-item-content{
+    margin-left: 0 !important;
+}
+.ivu-load-loop{
+    line-height: 0 !important;
+}
+.ivu-breadcrumb a{
+    color: #e2e8f0;
+}
+.ivu-breadcrumb-item-link{
+    color: #fc8181;
+}
+
+.comment-textarea-section .ivu-input-type-textarea textarea{
+    resize: none;
+    border: none;
+    outline: none;
+    background-color: #2d3748;
+    box-shadow: none;
+    color: #cbd5e0;
+    padding: 8px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.comment-textarea-section .ivu-input-type-textarea textarea::placeholder{
+    color: #718096;
+}
+
+.pagination-custom{
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+
+
+@media screen and (max-width:768px){
+    .pagination-custom{
+        position: initial;
+        transform: none;
+        display: flex;
+        justify-content: center;
+    }
+}

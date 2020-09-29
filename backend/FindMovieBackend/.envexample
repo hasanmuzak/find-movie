@@ -1,0 +1,7 @@
+SECRET_KEY="your key"
+dbEngine="django.db.backends.yourEngine"
+dbName="yourDBName"
+dbUser="yourDbUser"
+dbPassword="yourDbPassword"
+dbHost="yourHost"
+dbPort=yourDbPort
