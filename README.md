@@ -22,9 +22,11 @@ API URLS EXAMPLE
 ```python -m venv env```
 - You need to activate the virtual environment that you've created. Type the code below in terminal :  
 ```source venv/bin/activate```
-- Install the required packages. (Read ***backend/requirements.txt***) (via ```pip install <required-package>```)
+- Install the required packages. (Read ***backend/requirements.txt***) (via ```pip install <required-package>```)  
+- Edit "FindMovieBackend/.envexample" file as "FindMovieBackend/.env" and configure for your database (For postgres,mysql...)  
 - After installing required packages, its done. Run :   
 ```python manage.py runserver```
+
 ---
 **Frontend Installation**
 - Go "frontend" directory from terminal and run the code below in terminal :  
